@@ -145,9 +145,10 @@ address {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  margin: auto;
 }
 .hero-container {
-  max-width: 1440px;
 }
 .hero-title {
   color: var(--WHITE, #fff);
