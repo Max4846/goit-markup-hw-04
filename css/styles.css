@@ -111,10 +111,6 @@ address {
 .header-menu-link:focus {
   color: #404bbf;
 }
-.current {
-  position: relative;
-  color: #404bbf;
-}
 .header-menu-link .current::after {
   content: "";
   left: 0;
@@ -126,7 +122,12 @@ address {
   display: block;
   width: 48px;
 }
-
+.current {
+  height: 4px;
+  width: 48px;
+  position: relative;
+  color: #404bbf;
+}
 .header-address {
 }
 .header-address-list {
