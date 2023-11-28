@@ -196,7 +196,6 @@ address {
   gap: 24px;
 }
 .feature-item {
-  width: calc((100% - 24px * 3) / 4);
 }
 .feature-item-icons {
   display: flex;
@@ -210,8 +209,6 @@ address {
   margin-bottom: 8px;
 }
 .feature-icons {
-  width: 64px;
-  height: 64px;
 }
 
 .feature-subtitle {
