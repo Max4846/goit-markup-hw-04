@@ -427,6 +427,9 @@ address {
   display: flex;
   align-items: baseline;
 }
+.footer-logo-paragraph {
+  margin-right: 120px;
+}
 .footer-logo {
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
@@ -464,19 +467,25 @@ address {
   gap: 16px;
 }
 .footer-social-icons-list {
-  border-radius: 50%;
-  background-color: #4d5ae5;
-  width: 40px;
-  height: 40px;
 }
-.footer-social-icons-list:hover,
-.footer-social-icons-list:focus {
-  background-color: #31d0aa;
-}
+
 .footer-icons {
-  width: 24px;
-  height: 24px;
   fill: #fff;
   margin: 8px;
+}
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.footer-social-link:hover {
+  background-color: #31d0aa;
+}
+.footer-social-link:focus {
+  background-color: #31d0aa;
 }
 /*? ============================================================ */
